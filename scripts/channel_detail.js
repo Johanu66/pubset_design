@@ -1,0 +1,12 @@
+$(function(){
+    $(".description_up_icon").click(function(){
+        $(this).hide();
+        $(".description_down_icon").slideToggle();
+        $(".description_text").slideToggle();
+    });
+    $(".description_down_icon").click(function(){
+        $(this).hide();
+        $(".description_up_icon").slideToggle();
+        $(".description_text").slideToggle();
+    });
+});

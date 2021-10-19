@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+      html, body {
+        height: 100vh;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+            overflow: hidden;
+      }
+
+      .swiper-container {
+            padding: 0px;
+            margin: 0px;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+      .swiper-slide {
+          padding: 0px;
+          margin: 0px;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+            overflow: hidden;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Swiper -->
+    <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image: url('https://swiperjs.com/demos/images/nature-1.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('https://swiperjs.com/demos/images/nature-2.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('https://swiperjs.com/demos/images/nature-3.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('https://swiperjs.com/demos/images/nature-4.jpg');"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "cube",
+        grabCursor: true,
+        cubeEffect: {
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94
+        },
+        loop: true,
+        speed: 2000,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        },
+        pagination: {
+          el: ".swiper-pagination"
+        }
+      });
+    </script>
+  </body>
+</html>

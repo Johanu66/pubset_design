@@ -1,0 +1,93 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    color: #1E499B;
+    font-family: Roboto;
+}
+.bi{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.header #logo img{
+    width: 100px;
+}
+.header{
+    position: sticky;
+    top: 0%;
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(77, 77, 77, 0.6);
+}
+.header a{
+    color: inherit;
+}
+.header a:hover{
+    text-decoration: none;
+    color: #FF6F00;
+}
+.header #nav_lg li{
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-weight: bold;
+}
+.header .nav_link_important{
+    background-color: #FF6F00;
+    color: white;
+    border-radius: 20px;
+}
+.header .nav_link_important a:hover{
+    color: #1E499B;
+}
+.header #nav_list{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    display: none;
+}
+.header #nav_list a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+}
+.header #nav_list a:hover{
+    background-color: rgb(245, 245, 245);
+}
+
+@media screen and (max-width: 768px){
+    .header #logo img{
+        width: 80px;
+    }
+}
+
+.btn-pubset{color:#fff;background-color:#1E499B;border-color:#1E499B}
+.btn-pubset:hover{color:#fff;background-color:#0b5ed7;border-color:#0a58ca}
+.btn-check:focus+.btn-pubset,.btn-pubset:focus{color:#fff;background-color:#0b5ed7;border-color:#0a58ca;box-shadow:0 0 0 .25rem rgba(49,132,253,.5)}
+.btn-check:active+.btn-pubset,.btn-check:checked+.btn-pubset,.btn-pubset.active,.btn-pubset:active,.show>.btn-pubset.dropdown-toggle{color:#fff;background-color:#0a58ca;border-color:#0a53be}
+.btn-check:active+.btn-pubset:focus,.btn-check:checked+.btn-pubset:focus,.btn-pubset.active:focus,.btn-pubset:active:focus,.show>.btn-pubset.dropdown-toggle:focus{box-shadow:0 0 0 .25rem rgba(49,132,253,.5)}
+.btn-pubset.disabled,.btn-pubset:disabled{color:#fff;background-color:#1E499B;border-color:#1E499B}
+
+.first_color{
+    color: #1E499B;
+}
+.second_color{
+    color: #FF6F00;
+}
+.text-justify{
+    text-align: justify;
+}

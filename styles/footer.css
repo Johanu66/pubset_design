@@ -1,0 +1,50 @@
+.footer{
+    background-color: #1E499B;
+    color: white;
+    padding: 2%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.footer img{
+    width: 100px;
+}
+.footer h4{
+    color: white;
+    padding-bottom: 2%;
+    border-bottom: white 2px solid;
+}
+.footer .raccourcis_infos_contacts{
+    border-bottom: white 2px solid;
+    padding-bottom: 1%;
+}
+.footer i{
+    font-size: 1.5rem;
+}
+.footer .logo_copyright{
+    padding-top: 2%;
+    font-size: 0.8rem;
+}
+.footer .raccourcis li, .footer .infos li{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.footer .raccourcis, .footer .infos, .footer .contacts{
+    padding: 0px;
+}
+.footer a{
+    color: inherit;
+}
+@media screen and (max-width: 768px){
+    .footer .raccourcis, .footer .infos, .footer .contacts{
+        margin-bottom: 5%;
+    }
+    .footer{
+        padding: 10%;
+    }
+    .footer .raccourcis_infos_contacts{
+        border-bottom: none;
+    }
+    .footer .logo_copyright .logo{
+        display: none;
+    }
+}

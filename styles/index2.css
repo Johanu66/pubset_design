@@ -1,0 +1,50 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    color: #1E499B;
+    font-family: Roboto;
+}
+.bi{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.content_main #channel_search{
+    border-radius: 20px;
+    padding-left: 40px;
+}
+.content_main .channel_search_icon{
+    top: 8px;
+    left: 30px;
+}
+.content_main .channel{
+    box-shadow: 0px 0px 5px 1px #1e4a9b52;
+}
+.content_main .channel_image{
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+.content_main .channel_title{
+    color: #FF6F00;
+}
+.content_main .channel_content{
+    text-align: justify;
+    font-family: Arial;
+    opacity: 0.5;
+}
+.content_main .channel_subscribe{
+    text-align: justify;
+    font-family: Arial;
+    opacity: 0.5;
+    font-size: 0.9em;
+}
+@media screen and (max-width: 768px){
+    .content_main .channel_image{
+        height: 150px;
+    }
+}

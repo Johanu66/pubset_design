@@ -1,0 +1,16 @@
+label{
+    font-weight: bold;
+}
+small{
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: justify;
+}
+#plus{
+    font-size: 2em;
+    cursor: pointer;
+}
+.bi-trash{
+    color: red;
+    font-size: 1.8em;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="bootstrap5/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="styles/index1.css">
+        <link rel="stylesheet" href="styles/slider.css">
+        <link rel="icon" href="images/Logo_Pubset.png">
+        <title>Pubset</title>
+    </head>
+    <body id="body">
+        <header class="header d-flex justify-content-between align-items-md-end align-items-center">
+            <div id="logo">
+                <a href="index1.html"><img src="images/Logo_complet.png" alt="logo"></a>
+            </div>
+            <ul class="list-unstyled d-none d-md-flex justify-content-end flex-grow-1" id="nav_lg">
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li class="nav_link_important"><a href="connexion.html">Log in</a></li>
+                <li class="nav_link_important"><a href="inscription.html">Sign up</a></li>
+            </ul>
+            <div  class="d-md-none" id="nav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-justify" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                <ul class="list-unstyled" id="nav_list">
+                    <li class="border"><a href="index1.html">Home</a></li>
+                    <li class="border"><a href="#">Help</a></li>
+                    <li class="border"><a href="#">About</a></li>
+                    <li class="border"><a href="connexion.html">Log in</a></li>
+                    <li class="border"><a href="inscription.html">Sign up</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="slider">
+            <div class="myslide fade_slider">
+                <div class="txt">
+                    <h1>Pubset</h1>
+                    <p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
+                </div>
+                <div class="img" style="width: 100%; height: 100%; background-image: url('images/image_1.png'); background-position: center; background-size: cover;"></div>
+            </div>
+            
+            <div class="myslide fade_slider">
+                <div class="txt">
+                    <h1>Pubset</h1>
+                    <p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
+                </div>
+                <div class="img" style="width: 100%; height: 100%; background-image: url('images/image_2.jpg'); background-position: center; background-size: cover;"></div>
+            </div>
+            
+            <div class="myslide fade_slider">
+                <div class="txt">
+                    <h1>Pubset</h1>
+                    <p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
+                </div>
+                <div class="img" style="width: 100%; height: 100%; background-image: url('images/image_3.jpg'); background-position: center; background-size: cover;"></div>
+            </div>
+            
+            <div class="myslide fade_slider">
+                <div class="txt">
+                    <h1>Pubset</h1>
+                    <p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
+                </div>
+                <div class="img" style="width: 100%; height: 100%; background-image: url('images/image_4.png'); background-position: center; background-size: cover;"></div>
+            </div>
+            
+            <div class="myslide fade_slider">
+                <div class="txt">
+                    <h1>Pubset</h1>
+                    <p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
+                </div>
+                <div class="img" style="width: 100%; height: 100%; background-image: url('images/image_5.jpg'); background-position: center; background-size: cover;"></div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            <div class="dotsbox" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </div>
+        <section class="content_main container">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-md-6">
+                    <img class="w-100" src="images/image_6.png" alt="Image">
+                </div>
+                <div class="col-12 col-md-6 presentation_text">
+                    <h1 class="presentation_title">Lorem ipsum dolor</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor aliqua incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud aliqua  ut exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor aliqua incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud aliqua  ut exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor aliqua incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud aliqua  ut exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center flex-row-reverse">
+                <div class="col-12 col-md-6">
+                    <img class="w-100" src="images/image_6.png" alt="Image">
+                </div>
+                <div class="col-12 col-md-6 presentation_text">
+                    <h1 class="presentation_title">Lorem ipsum dolor</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor aliqua incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud aliqua  ut exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor aliqua incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud aliqua  ut exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor aliqua incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud aliqua  ut exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-md-6">
+                    <img class="w-100" src="images/image_6.png" alt="Image">
+                </div>
+                <div class="col-12 col-md-6 presentation_text">
+                    <h1 class="presentation_title">Lorem ipsum dolor</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor aliqua incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud aliqua  ut exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor aliqua incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud aliqua  ut exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor aliqua incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud aliqua  ut exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 my-5 d-flex justify-content-center align-items-center">
+                    <a class="btn btn-success start" href="inscription.html">Start</a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer container-fluid">
+            <div class="raccourcis_infos_contacts row d-flex justify-content-between">
+                <div class="raccourcis col-12 col-md-3">
+                    <h4>Shortcuts</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="index1.html">Home</a></li>
+                        <li><a href="connexion.html">Log in</a></li>
+                        <li><a href="inscription.html">sign up</a></li>
+                    </ul>
+                </div>
+                <div class="infos col-12 col-md-3">
+                    <h4>Infos</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Confidentiality policy</a></li>
+                    </ul>
+                </div>
+                <div class="contacts col-12 col-md-3">
+                    <h4>Contacts</h4>
+                    <ul class="list-unstyled d-flex justify-content-around justify-content-md-between">
+                        <li><a href="#"><i class="bi-whatsapp"></i></a></li>
+                        <li><a href="#"><i class="bi-envelope"></i></a></li>
+                        <li><a href="#"><i class="bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi-telephone-fill"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="logo_copyright d-flex justify-content-center justify-content-md-between align-items-center">
+                <div class="d-none d-md-block">
+                    <a href="#"><img src="images/Logo_complet_1.png" alt="Logo"></a>
+                </div>
+                <div class="copyright">
+                    Copyright © Pubset.2021. All rights reserved.
+                </div>
+            </div>
+        </footer>
+        <script src="bootstrap5/bootstrap.bundle.min.js"></script>
+        <script src="bootstrap5/popper.min.js"></script>
+        <script src="bootstrap5/bootstrap.min.js"></script>
+        <script type="text/javascript" src="scripts/jquery.js"></script>
+        <script type="text/javascript" src="scripts/header.js"></script>
+        <script type="text/javascript" src="scripts/slider.js"></script>
+    </body>
+</html>

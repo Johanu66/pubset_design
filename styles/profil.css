@@ -1,0 +1,26 @@
+.content_main .profile_picture{
+    width: 200px;
+    height: 200px;
+}
+.content_main{
+    transform: translateY(-100px);
+}
+.channel_detail{
+    background-color: #1E499B;
+    height: 200px;
+    width: 100%;
+}
+@media screen and (max-width: 768px){
+    .content_main .profile_picture{
+        width: 100px;
+        height: 100px;
+    }
+    .content_main{
+        transform: translateY(-50px);
+    }
+    .channel_detail{
+        background-color: #1E499B;
+        height: 100px;
+        width: 100%;
+    }
+}

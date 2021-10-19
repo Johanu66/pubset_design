@@ -1,0 +1,68 @@
+.channel_detail{
+    height: 91vh;
+    position: relative;
+}
+.channel_image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+}
+.channel_detail .channel_name{
+    font-size: 4em;
+}
+.channel_detail .channel_title{
+    font-size: 2em;
+    font-family: 'Great Vibes';
+}
+.likes_comments_views{
+    font-size: 0.8em;
+}
+.comments > div{
+    background-color: rgb(232, 240, 248);
+    border-radius: 10px;
+}
+#announcement_search{
+    border-radius: 20px;
+    padding-left: 40px;
+}
+.announcement_search_icon{
+    top: 8px;
+    left: 30px;
+}
+.like_icon, .comment_icon, .share_icon{
+    font-size: 1.5em;
+}
+.description_down_icon, .description_up_icon{
+    font-size: 1.5em;
+}
+.description_up_icon, .description_text{
+    display: none;
+}
+@media screen and (max-width: 992px){
+	.channel_detail{
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 570px){
+	.channel_detail{
+		height: 250px;
+	}
+    .channel_detail .channel_name{
+        font-size: 2em;
+    }
+    .channel_detail .channel_title{
+        font-size: 1.5em;
+    }
+    .mobile_btn{
+        font-size: 0.7em;
+    }
+}

@@ -1,0 +1,26 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    color: #1E499B;
+    font-family: Roboto;
+}
+.bi{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.presentation_text{
+    text-align: justify;
+}
+.presentation_title{
+    color: #FF6F00;
+}
+.start{
+    width: 200px;
+    font-size: 1.8em;
+    font-weight: bolder;
+}
