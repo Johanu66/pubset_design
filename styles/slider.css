@@ -3,11 +3,11 @@
 	width: 100%;
 	background: #2c3e50;
 }
-.myslide{
+.slider .myslide{
     height: 91vh;
 	overflow: hidden;
 }
-.prev, .next{
+.slider .prev,.slider .next{
 	position: absolute;
 	top: 50%;
 	transform: translate(0, -50%);
@@ -18,20 +18,20 @@
 	transition: 0.1s;
 	user-select: none;
 }
-.prev:hover, .next:hover{
+.slider .prev:hover,.slider .next:hover{
 	color: #1E499B;
 }
-.next{
+.slider .next{
 	right: 0;
 }
-.dotsbox{
+.slider .dotsbox{
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%);
 	bottom: 20px;
 	cursor: pointer;
 }
-.dot{
+.slider .dot{
 	display: inline-block;
 	width: 15px;
 	height: 15px;
@@ -40,10 +40,10 @@
 	margin: 0 10px;
 	cursor: pointer;
 }
-.active, .dot:hover{
+.slider .active, .slider .dot:hover{
 	border-color: #1E499B;
 }
-.fade_slider {
+.slider .fade_slider {
     -webkit-animation-name: fade_slider;
     -webkit-animation-duration: 1.5s;
     animation-name: fade_slider;
@@ -57,7 +57,7 @@
   from {opacity: 0.5}
   to {opacity: 1}
 }
-.txt{
+.slider .txt{
 	position: absolute;
 	color: #fff;
 	letter-spacing: 2px;
@@ -78,17 +78,17 @@
   from {left: 25%;}
   to {left: 15%;}
 }
-.txt h1{
+.slider .txt h1{
 	color: coral;
 	font-size: 50px;
 	margin-bottom: 10px;
 }
-.txt p{
+.slider .txt p{
 	text-shadow: 0px 0px 4px #1E499B;
 	font-weight: bold;
 	font-size: 20px;
 }
-.img{
+.slider .img{
 	transform: scale(1.5, 1.5);
 	-webkit-animation-name: zoomin;
   	-webkit-animation-duration: 40s;
@@ -108,13 +108,13 @@
 
 
 @media screen and (max-width: 992px){
-	.myslide{
+	.slider .myslide{
 		height: 600px;
 	}
-	.prev, .next{
+	.slider .prev, .slider .next{
 		font-size: 40px;
 	}
-	.txt{
+	.slider .txt{
 		letter-spacing: 2px;
 		line-height: 25px;
 		top: 50%;
@@ -126,7 +126,7 @@
 		animation-duration: 2s;
 	}
 
-	.dot{
+	.slider .dot{
 		width: 10px;
 		height: 10px;
 	}
@@ -142,24 +142,24 @@
 	  to {top: 50%;}
 	}
 
-	.txt h1{
+	.slider .txt h1{
 		font-size: 40px;
 	}
-	.txt p{
+	.slider .txt p{
 		font-size: 13px;
 	}
 
 }
 
 @media screen and (max-width: 570px){
-	.txt h1{
+	.slider .txt h1{
 		font-size: 30px;
 		margin-bottom: 20px;
 	}
-	.myslide{
+	.slider .myslide{
 		height: 400px;
 	}
-	.dot{
+	.slider .dot{
 		width: 8px;
 		height: 8px;
 	}
